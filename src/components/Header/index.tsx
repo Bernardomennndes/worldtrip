@@ -3,8 +3,8 @@ import { Logo } from './Logo';
 
 export function Header() {
     return (
-        <header>
+        <Flex as="header">
             <Logo />
-        </header>
+        </Flex>
     );
 }
