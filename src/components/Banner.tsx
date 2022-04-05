@@ -1,42 +1,50 @@
-import { Box, Flex, Image, Text } from "@chakra-ui/react";
+import { Box, Heading, Flex, Image, Text } from "@chakra-ui/react";
 
 export function Banner() {
     return (
         <>
-            <Box>
-                <Image w="100%" h="370px" src="/images/background.png" alt="background" zIndex="-1" />
+            <Flex
+                w="100%"
+                h="370px"
+                bgImage="url('/images/background.png')"
+                bgPosition={["100% 20%", "100% 20%", "100% 30%"]}
+                bgRepeat="no-repeat"
+                bgSize="cover"
+            >
                 <Flex
+                    justify="space-between"
+                    align="center"
                     w="100%"
-                    h="370px"
-                    justifyContent="space-around"
-                    alignItems="center"
-                    position="absolute"
-                    top="0"
-                    left="0"
-                    mt="20"
+                    mx="0"
+                    px="36"
                 >
                     <Box>
-                        <Text
-                            as="h1"
+                        <Heading
                             color="gray.50"
-                            fontSize="36px"
+                            fontSize="4xl"
                             fontWeight="500"
-                            fontFamily="Poppins"
                         >
-                            5 continents,<br />endless possibilities
-                        </Text>
+                            5 continents,<br />endless possibilities.
+                        </Heading>
                         <Text
-                            as="p"
-                            color="gray.100"
-                            fontSize="20px"
-                            fontFamily="Poppins"
+                            color="gray.300"
+                            mt="5"
+                            fontSize="xl"
+                            maxW="550px"
                         >
                             It is time to make your travel you ever dreamt about.
                         </Text>
                     </Box>
-                    <Image src="/images/airplane.svg" alt="Airplane" zIndex="auto" mt="10" />
+                    <Image
+                        w="600px"
+                        display="block"
+                        src="/images/airplane.svg"
+                        alt="Flying airplane with some clouds around"
+                        transform="translateY(48px)"
+                        ml="8"
+                    />
                 </Flex>
-            </Box>
+            </Flex>
         </>
     );
 }
