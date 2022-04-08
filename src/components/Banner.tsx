@@ -36,7 +36,7 @@ export function Banner() {
                         </Text>
                     </Box>
                     <Image
-                        w="600px"
+                        w="480px"
                         display="block"
                         src="/images/airplane.svg"
                         alt="Flying airplane with some clouds around"

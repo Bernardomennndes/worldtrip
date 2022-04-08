@@ -7,7 +7,7 @@ export function TravelTypes() {
             maxW="1160px"
             justify="space-between"
             align="center"
-            mt="100px"
+            mt="114px"
             mx="auto"
         >
 
