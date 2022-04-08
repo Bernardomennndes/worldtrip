@@ -1,8 +1,8 @@
 {
   "continents": [
     {
-      "id": 1,
-      "name": "Europa",
+      "id": "europe",
+      "name": "Europe",
       "bannerImageURL": "https://images.unsplash.com/photo-1473951574080-01fe45ec8643?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1379&q=80",
       "description": "Europe is one of the six continents, being the second smallest in territorial extension. The continent is bathed, to the north, by the Arctic Sea; to the south, by the Mediterranean Sea and the Black Sea; to the west, by the Atlantic Ocean; and, to the east, by the Caspian Sea. Europe is also known as the “Old World” and considered the cradle of Western culture.",
       "info": {
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": "africa",
       "name": "Africa",
       "bannerImageURL": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=751&q=80",
       "description": "Africa is one of the six continents in the world, being the third largest in territorial extension. The territory extends over 30 million km2, occupying approximately 20% of the Earth's continental area. More than a billion people live on the continent, making it the second most populous among the rest.",
@@ -74,7 +74,7 @@
           "image": "https://images.unsplash.com/photo-1577948000111-9c970dfe3743?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80"
         },
         {
-          "id": 1,
+          "id": 2,
           "name": "Angola",
           "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197513.svg?token=exp=1617570687~hmac=b0d8ef0d1147471c9e4e57577cafb7d0",
           "capital": "Luanda",
@@ -83,7 +83,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": "asia",
       "name": "Asia",
       "bannerImageURL": "https://images.unsplash.com/photo-1441839438427-ad31d742a202?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1494&q=80",
       "description": "Asia is the largest continent by land area in the world, with much of the continent located in the Northern Hemisphere. In addition to being the most extensive, it is also the most populous, inhabiting about three-fifths of the world's population. Asia is multicultural, harboring diverse cultures, ethnicities, religions and traditions.",
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": "america",
       "name": "America",
       "bannerImageURL": "https://images.unsplash.com/photo-1534126874-5f6762c6181b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=915&q=80",
       "description": "America is the largest north-south continent located in the Western Hemisphere and comprises a total area of 42,189,120 km2. The continent is inhabited by about 902,892,047 people, and several languages are spoken there, such as Spanish, English, Portuguese, French, Dutch and native languages.",
@@ -137,7 +137,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": "oceania",
       "name": "Oceania",
       "bannerImageURL": "https://images.unsplash.com/photo-1484007880226-8849602bb447?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1036&q=80",
       "description": "Oceania is the most isolated continent in the world, its geographical barrier made it the last to be discovered by Europeans. Due to this delay in its discovery, it became known as the new world.",
