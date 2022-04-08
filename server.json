@@ -1,0 +1,199 @@
+{
+  "continents": [
+    {
+      "id": 1,
+      "name": "Europa",
+      "bannerImageURL": "https://images.unsplash.com/photo-1473951574080-01fe45ec8643?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1379&q=80",
+      "description": "Europe is one of the six continents, being the second smallest in territorial extension. The continent is bathed, to the north, by the Arctic Sea; to the south, by the Mediterranean Sea and the Black Sea; to the west, by the Atlantic Ocean; and, to the east, by the Caspian Sea. Europe is also known as the “Old World” and considered the cradle of Western culture.",
+      "info": {
+        "numberOfCountries": 50,
+        "numberOfIdioms": 24,
+        "numberOfCities": 27
+      },
+      "countries": [
+        {
+          "id": 1,
+          "name": "United Kingdom",
+          "flag": "https://cdn.countryflags.com/thumbs/united-kingdom/flag-square-250.png",
+          "capital": "London",
+          "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=401&q=80"
+        },
+        {
+          "id": 2,
+          "name": "France",
+          "flag": "https://cdn.countryflags.com/thumbs/france/flag-square-250.png",
+          "capital": "Paris",
+          "image": "https://images.unsplash.com/photo-1549144511-f099e773c147?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Italy",
+          "flag": "https://cdn.countryflags.com/thumbs/italy/flag-square-250.png",
+          "capital": "Roma",
+          "image": "https://images.unsplash.com/photo-1531572753322-ad063cecc140?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80"
+        },
+        {
+          "id": 4,
+          "name": "Czech republic",
+          "flag": "https://cdn.countryflags.com/thumbs/czech-republic/flag-square-250.png",
+          "capital": "Praga",
+          "image": "https://images.unsplash.com/photo-1592906209472-a36b1f3782ef?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+        },
+        {
+          "id": 5,
+          "name": "Netherlands",
+          "flag": "https://cdn.countryflags.com/thumbs/netherlands/flag-square-250.png",
+          "capital": "Amsterdam",
+          "image": "https://images.unsplash.com/photo-1594759876531-d12b5e9e2453?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
+        },
+        {
+          "id": 5,
+          "name": "Portugal",
+          "flag": "https://cdn.countryflags.com/thumbs/portugal/flag-square-250.png",
+          "capital": "Lisboa",
+          "image": "https://images.unsplash.com/photo-1580323956656-26bbb1206e34?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=865&q=80"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Africa",
+      "bannerImageURL": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=751&q=80",
+      "description": "Africa is one of the six continents in the world, being the third largest in territorial extension. The territory extends over 30 million km2, occupying approximately 20% of the Earth's continental area. More than a billion people live on the continent, making it the second most populous among the rest.",
+      "info": {
+        "numberOfCountries": 54,
+        "numberOfIdioms": 2000,
+        "numberOfCities": 27
+      },
+      "countries": [
+        {
+          "id": 1,
+          "name": "South Africa",
+          "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197562.svg?token=exp=1617570566~hmac=4f2ef416f1bdcb7a518a066e3f1e1823",
+          "capital": "Joanesburgo",
+          "image": "https://images.unsplash.com/photo-1577948000111-9c970dfe3743?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80"
+        },
+        {
+          "id": 1,
+          "name": "Angola",
+          "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197513.svg?token=exp=1617570687~hmac=b0d8ef0d1147471c9e4e57577cafb7d0",
+          "capital": "Luanda",
+          "image": "https://images.unsplash.com/photo-1489493887464-892be6d1daae?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=748&q=80"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Asia",
+      "bannerImageURL": "https://images.unsplash.com/photo-1441839438427-ad31d742a202?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1494&q=80",
+      "description": "Asia is the largest continent by land area in the world, with much of the continent located in the Northern Hemisphere. In addition to being the most extensive, it is also the most populous, inhabiting about three-fifths of the world's population. Asia is multicultural, harboring diverse cultures, ethnicities, religions and traditions.",
+      "info": {
+        "numberOfCountries": 50,
+        "numberOfIdioms": 2301,
+        "numberOfCities": 27
+      },
+      "countries": [
+        {
+          "id": 1,
+          "name": "China",
+          "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197375.svg?token=exp=1617571828~hmac=511d7f2a91c8b3d1b031e0db7cde9aeb",
+          "capital": "Xangai",
+          "image": "https://images.unsplash.com/photo-1474181487882-5abf3f0ba6c2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Japan",
+          "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197604.svg?token=exp=1617571797~hmac=694ab94d92680500b2dfe443be5034c7",
+          "capital": "Tokyo",
+          "image": "https://images.unsplash.com/photo-1551641506-ee5bf4cb45f1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=762&q=80"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "America",
+      "bannerImageURL": "https://images.unsplash.com/photo-1534126874-5f6762c6181b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=915&q=80",
+      "description": "America is the largest north-south continent located in the Western Hemisphere and comprises a total area of 42,189,120 km2. The continent is inhabited by about 902,892,047 people, and several languages are spoken there, such as Spanish, English, Portuguese, French, Dutch and native languages.",
+      "info": {
+        "numberOfCountries": 35,
+        "numberOfIdioms": 1061,
+        "numberOfCities": 27
+      },
+      "countries": [
+        {
+          "id": 1,
+          "name": "EUA",
+          "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197484.svg?token=exp=1617572885~hmac=d4baa61df786d96af6e098f087ffb554",
+          "capital": "Washington, D.C",
+          "image": "https://images.unsplash.com/photo-1501466044931-62695aada8e9?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=678&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Canada",
+          "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197430.svg?token=exp=1617572971~hmac=80be3adb4949fd6e4acdfaa8db4fd558",
+          "capital": "Ottawa",
+          "image": "https://images.unsplash.com/photo-1569681157442-5eabf7fe850e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=752&q=80"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Oceania",
+      "bannerImageURL": "https://images.unsplash.com/photo-1484007880226-8849602bb447?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1036&q=80",
+      "description": "Oceania is the most isolated continent in the world, its geographical barrier made it the last to be discovered by Europeans. Due to this delay in its discovery, it became known as the new world.",
+      "info": {
+        "numberOfCountries": 14,
+        "numberOfIdioms": 19,
+        "numberOfCities": 27
+      },
+      "countries": [
+        {
+          "id": 1,
+          "name": "Australia",
+          "flag": "https://www.flaticon.com/svg/vstatic/svg/323/323367.svg?token=exp=1617573283~hmac=fd99fe78b7c66eb8a4041731170e79ba",
+          "capital": "Sidney",
+          "image": "https://images.unsplash.com/photo-1524820197278-540916411e20?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=772&q=80"
+        },
+        {
+          "id": 2,
+          "name": "New Zealand",
+          "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197589.svg?token=exp=1617573368~hmac=a714036d441e41b35667c4e768d7e650",
+          "capital": "Wellington",
+          "image": "https://images.unsplash.com/photo-1574751743509-d3b94e447a1e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=669&q=80"
+        }
+      ]
+    }
+  ],
+  "sliderContinents": [
+    {
+      "slug": "europe",
+      "title": "Europe",
+      "summary": "The eldest continent",
+      "image": "https://images.unsplash.com/photo-1490642914619-7955a3fd483c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1370&q=80"
+    },
+    {
+      "slug": "africa",
+      "title": "Africa",
+      "summary": "The continent full of culture",
+      "image": "https://images.unsplash.com/photo-1523805009345-7448845a9e53?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=752&q=80"
+    },
+    {
+      "slug": "asia",
+      "title": "Asia",
+      "summary": "Know the millenial",
+      "image": "https://images.unsplash.com/photo-1470004914212-05527e49370b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=926&q=80"
+    },
+    {
+      "slug": "america",
+      "title": "America",
+      "summary": "The knew dream continent",
+      "image": "https://images.unsplash.com/photo-1544989163-df6cdad98651?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80"
+    },
+    {
+      "slug": "oceania",
+      "title": "Oceania",
+      "summary": "The last continent",
+      "image": "https://images.unsplash.com/photo-1609717235022-e9209e622c59?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80"
+    }
+  ]
+}
