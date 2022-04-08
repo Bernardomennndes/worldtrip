@@ -8,7 +8,7 @@ export function Logo() {
             mx="auto"
             my="3.5"
         >
-            <Image src='./images/logo.svg' alt="Worldtrip" />
+            <Image src='/images/logo.svg' alt="Worldtrip" />
         </Link>
     );
 }
