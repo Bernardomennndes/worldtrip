@@ -7,8 +7,14 @@ export function Logo() {
             display="block"
             mx="auto"
             my="3.5"
+            justifySelf="center"
+            gridColumn="2"
         >
-            <Image src='/images/logo.svg' alt="Worldtrip" />
+            <Image
+                w={["81px", "184px"]}
+                src='/images/logo.svg'
+                alt="A plane flying over the Worldtrip logo"
+            />
         </Link>
     );
 }
