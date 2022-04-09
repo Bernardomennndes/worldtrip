@@ -1,4 +1,5 @@
-import { Flex, Text } from "@chakra-ui/react";
+import { Flex, Grid, Text } from "@chakra-ui/react";
+import { ContinentInfo } from "./ContinentInfo";
 
 interface InfoProps {
     description: string;
@@ -11,56 +12,23 @@ interface InfoProps {
 
 export function Info({ description, info }: InfoProps) {
     return (
-        <Flex
+        <Grid
             maxW="1160px"
-            justify="space-between"
-            align="center"
             mx="auto"
-            my="80px"
+            templateColumns={["1fr", "1fr", "1fr 1fr", "1.2fr 1fr"]}
+            gap={[5, 10, 16, 20]}
+            my={["8", "20"]}
+            alignItems="center"
         >
             <Text
-                fontSize="2xl"
-                fontWeight="400"
+                fontSize={["lg", "xl", "xl", "2xl"]}
                 color="gray.700"
-                maxW="600px"
                 textAlign="justify"
+                px="10px"
             >
                 {description}
             </Text>
-            <Flex
-                justify="space-between"
-                align="center"
-                maxW="490px"
-                w="100%"
-            >
-                <Flex
-                    direction="column"
-                    justify="center"
-                    align="center"
-                >
-                    <Text fontSize="5xl" fontWeight="600" color="yellow.400" >{info.numberOfCountries}</Text>
-                    <Text fontSize="2xl" fontWeight="600" >Countries</Text>
-                </Flex>
-
-                <Flex
-                    direction="column"
-                    justify="center"
-                    align="center"
-                >
-                    <Text fontSize="5xl" fontWeight="600" color="yellow.400" >{info.numberOfIdioms}</Text>
-                    <Text fontSize="2xl" fontWeight="600" >Idioms</Text>
-                </Flex>
-
-                <Flex
-                    direction="column"
-                    justify="center"
-                    align="center"
-                >
-                    <Text fontSize="5xl" fontWeight="600" color="yellow.400" >{info.numberOfCities}</Text>
-                    <Text fontSize="2xl" fontWeight="600" >Cities +100</Text>
-                </Flex>
-
-            </Flex>
-        </Flex>
+            <ContinentInfo info={info} />
+        </Grid>
     );
 }
