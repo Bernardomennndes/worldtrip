@@ -1,4 +1,4 @@
-import { Box, Heading, SimpleGrid } from "@chakra-ui/react";
+import { Box, Grid, Heading, SimpleGrid } from "@chakra-ui/react";
 import { CityCard } from "./CityCard";
 
 type Countries = {
@@ -20,15 +20,18 @@ export function Cities({ countries }: CitiesProps) {
             my="80px"
             mx="auto"
         >
-            <Heading mb="40px" fontSize="3xl" color="gray.700">
+            <Heading mb="40px" fontSize={["2xl", "3xl"]} color="gray.700">
                 Cities +100
             </Heading>
 
-            <SimpleGrid
-                justifyItems="center"
-                spacing="10"
-                minChildWidth="260px"
+            <Grid
+                templateColumns={["1fr", "1fr 1fr", "repeat(3, 1fr)", "repeat(4, 1fr)"]}
+                gap={['20px', '45px']}
+                alignItems="center"
+                justifyContent="center"
+                px={["30px", "0"]}
             >
+
                 {countries.map(card => (
                     <CityCard
                         key={card.id}
@@ -38,7 +41,8 @@ export function Cities({ countries }: CitiesProps) {
                         image={card.image}
                     />
                 ))}
-            </SimpleGrid>
+
+            </Grid>
         </Box>
 
     );

@@ -12,10 +12,6 @@ export function CityCard({ name, flag, capital, image }: CityCardProps) {
         <Box
             w="fit-content"
             bg="white"
-            borderWidth="1px"
-            borderTop="0"
-            borderRadius="6px"
-            borderColor="rgba(255,186,8,0.5)"
         >
             <Image
                 src={image}
@@ -30,10 +26,13 @@ export function CityCard({ name, flag, capital, image }: CityCardProps) {
             <Flex
                 align="center"
                 justify="space-between"
-                mt="5"
-                mb="6"
-                mx="6"
-                borderBottomRadius="4"
+                pt="5"
+                pb="6"
+                px="6"
+                borderWidth="1px"
+                borderBottomRadius="4px"
+                borderColor="rgba(255,186,8,0.5)"
+                borderTop="0"
             >
                 <Stack spacing="3">
                     <Text
