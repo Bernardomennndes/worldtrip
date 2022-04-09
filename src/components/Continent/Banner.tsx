@@ -9,22 +9,21 @@ export function Banner({ name, bannerImageURL }: BannerProps) {
     return (
         <Flex
             w="100%"
-            h="500px"
+            h={["150px", "300px", "500px"]}
+            px={["0", "0", "36"]}
+            pt={["0", "0", "72"]}
             bgImage={`url(${bannerImageURL})`}
             bgPosition={["100% 20%", "100% 20%", "100% 30%"]}
             bgRepeat="no-repeat"
             bgSize="cover"
+            align="center"
+            justify={["center", "center", "flex-start"]}
         >
             <Text
-                fontSize="4xl"
+                fontSize={["1.75rem", "4xl"]}
                 fontWeight="600"
+                textAlign={["center", "left"]}
                 color="gray.50"
-                justifySelf="flex-end"
-                alignSelf="end"
-                maxW="1160px"
-                w="100%"
-                mx="auto"
-                mb="60px"
             >
                 {name}
             </Text>
