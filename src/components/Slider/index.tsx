@@ -18,8 +18,6 @@ export function Slider({ continents }: SliderProps) {
     return (
         <Flex w="100%" h={["250px", "450px"]} maxW="1240px" mx="auto" mb={["5", "10"]} mt="10">
             <Swiper
-                wrapperTag="ul"
-                spaceBetween={0}
                 slidesPerView={1}
                 navigation
                 pagination={{ clickable: true }}
