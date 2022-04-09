@@ -5,7 +5,7 @@ import { Text } from '@chakra-ui/react';
 
 import { Header } from '../components/Header';
 import { Banner } from '../components/Banner';
-import { TravelTypes } from '../components/TravelTypes';
+import { TravelTypes } from '../components/TravelTypes/index';
 import { Divider } from '../components/Divider';
 import { Slider } from '../components/Slider/index';
 
